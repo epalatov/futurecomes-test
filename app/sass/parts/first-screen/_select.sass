@@ -1,0 +1,31 @@
+.nice-select
+   float: none
+   background-color: $green
+   font-size: 18px
+   font-weight: bold
+   line-height: 42px
+   color: white
+   border: none
+   border-radius: 0
+   &:after
+      right: 15px
+      height: 10px
+      width: 10px
+      border-bottom: 2px solid #fff
+      border-right: 2px solid #fff
+
+.nice-select .option
+   font-weight: bold
+
+.option.selected.focus
+   background-color: $green
+
+.nice-select.open .list,
+.nice-select .list
+   border-radius: 0
+   background-color: rgba(#000, 0.5)
+
+.nice-select .option:hover,
+.nice-select .option.focus,
+.nice-select .option.selected.focus
+   background-color: $green
