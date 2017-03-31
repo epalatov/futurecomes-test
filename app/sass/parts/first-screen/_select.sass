@@ -13,6 +13,8 @@
       width: 10px
       border-bottom: 2px solid #fff
       border-right: 2px solid #fff
+   &:hover
+      background-color: darken($green, 5%)
 
 .nice-select .option
    font-weight: bold
@@ -20,12 +22,12 @@
 .option.selected.focus
    background-color: $green
 
-.nice-select.open .list,
-.nice-select .list
-   border-radius: 0
-   background-color: rgba(#000, 0.7)
-
 .nice-select .option:hover,
 .nice-select .option.focus,
 .nice-select .option.selected.focus
    background-color: $green
+
+.nice-select.open .list,
+.nice-select .list
+   border-radius: 0
+   background-color: rgba(#000, 0.7)

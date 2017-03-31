@@ -1,4 +1,5 @@
 $(function() {
+	$('select').niceSelect();
 	$(".owl-carousel").owlCarousel({
 		nav: true,
 		lazyLoad: true,
@@ -11,5 +12,4 @@ $(function() {
 		rewindSpeed: 500,
 		items: 1
 	});
-	$('select').niceSelect();
 });
