@@ -1,12 +1,16 @@
 .progress-bar
+   position: absolute
    width: 100%
    height: 4px
    background-color: rgba($green, 0.3)
    .ready
       position: relative
-      width: $ready
       height: 4px
       background-color: $green
+      &.ready-prj1
+         width: $ready-prj1
+      &.ready-prj2
+         width: $ready-prj2
       .arrow
          position: absolute
          right: -26px
