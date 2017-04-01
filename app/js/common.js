@@ -10,6 +10,7 @@ $(function() {
 		paginationSpeed: 400,
 		pagination: false,
 		rewindSpeed: 500,
-		items: 1
+		items: 1,
+		navContainer: '.owl-slide #info-container'
 	});
 });
