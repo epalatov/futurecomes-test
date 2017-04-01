@@ -1,16 +1,20 @@
 $(function() {
+	$.easing.def = "easeOutQuart";
+
+
 	$('select').niceSelect();
 	$(".owl-carousel").owlCarousel({
+		//animateOut: 'fadeOut',
+		//fallbackEasing: "easeOutQuad",
+		animateOut: 'slideOut',
+    	animateIn: 'slideIn',
 		nav: true,
-		lazyLoad: true,
 		loop: true,
 		navText: [],
-		autoplay: true,
-		slideSpeed: 300,
-		paginationSpeed: 400,
+		//autoplay: true,
 		pagination: false,
-		rewindSpeed: 500,
+		navSpeed: 5000,
 		items: 1,
-		navContainer: '.owl-slide #info-container'
+		navContainer: '.owl-slide #info-container',
 	});
 });
