@@ -5,7 +5,7 @@ $(function() {
 		lazyLoad: true,
 		loop: true,
 		navText: [],
-		//autoplay: true,
+		autoplay: true,
 		slideSpeed: 300,
 		paginationSpeed: 400,
 		pagination: false,
