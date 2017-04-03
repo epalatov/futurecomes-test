@@ -3,28 +3,164 @@
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px)
-	/**/
-
+@media (max-width : 1200px)
+   .first-screen-wrap, .owl-carousel div.owl-slide
+      height: 1050px
+   #chart
+      position: static
+      display: block
+      margin: 0 auto
+   .info-block
+      float: none
+   .info-block>div
+      text-align: center
+   .header .share
+      display: none
+      float: none
+   .info-block .share
+      float: none
+      display: inline-block
+      margin-bottom: 30px
+   .owl-prev, .owl-next
+      margin: 0
+   .owl-next
+      right: 12px
+   .offer
+      background-color: #e9e8e6
+      padding-top: 40px
+      padding-bottom: 40px
+      height: auto
+      color: black
+      text-align: center
+      &__title
+         width: 100%
+         font-size: 32px
+         line-height: 42px
+   .quiz
+      padding: 0
+   .quiz__button
+      display: inline-block
+      margin: 10px auto
+   .quiz__title
+      width: 100%
+   .info__text
+      width: 100%
+   .offer
+      position: static
+   .blog-entry, .subscribe
+      height: auto
+      padding: 0
+   .subscribe>div
+      padding: 40px
+   .blog-entry>div
+      padding: 50px 40px 40px 40px
+   .subscribe__title
+      width: 100%
+      padding-bottom: 20px
+      padding-top: 20px
+      text-align: left
+   .subscribe__title
+      margin: 0 auto
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	/**/
+   .header .logo
+      text-align: center
+   .header .tagline
+      margin: 0 auto
+      text-align: center
+   .footer
+      padding-top: 0
+   .footer .share
+      float: none
+   .footer .share__title
+      float: none
+      display: inline-block
+      text-align: center
+      width: 100%
+      margin-top: 40px
+      margin-right: 0
+   .bottom-line-2
+      display: block
+   .footer .share-wrap
+      display: block
+      width: 154px
+      margin: 0 auto
+   .footer .share__item:nth-child(3)
+      margin-right: 0
 
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
-	/**/
-
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px)
-	/**/
-
+   .first-screen-wrap, .owl-carousel div.owl-slide
+      height: auto
+   .quiz__button
+      display: block
+   .owl-prev, .owl-next
+      display: none
+   .info-block
+      margin-top: 140px
+   .offer__title
+      font-size: 28px
+      line-height: 32px
+   .subscribe .flag-title
+      position: static
+      display: block
+      width: 196px
+      margin-top: 10px
+      border-radius: 3px
+   .subscribe
+      .flag-title .decor
+         display: none
+   .subscribe__input
+      width: 100%
+      border-radius: 3px
+   .subscribe__title
+      padding-top: 0
+   #chart
+      width: 100%
+      height: auto
+      padding-bottom: 60px
+   .subscribe .bottom-line
+      margin-top: 20px
+   .footer
+      text-align: center
+   .footer .tagline
+      margin: 0 auto
+      margin-bottom: 20px
+   .info__title
+      margin-top: 20px
+      font-size: 40px
+      line-height: 52px
+   .owl-slide .flag-title
+      padding: 0
+      padding-left: 3px
+   .nice-select
+      padding-left: 9px
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px)
-	/**/
+@media only screen and (max-width : 352px)
+   .progress-bar .ready__title
+      font-size: 12px
+   .info__title
+      font-size: 32px
+      line-height: 36px
+   .header-wrap
+      height: 0
+   .owl-slide .flag-title
+      padding: 0
+      padding-left: 3px
+   .nice-select
+      padding-left: 9px
+   #chart
+      padding-bottom: 30px
+
+
+
+@media (max-height: 1069px)
+   /**/
+
+
 
 
 /*==========  Mobile First  ==========*/
@@ -52,4 +188,3 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
 	/**/
-
