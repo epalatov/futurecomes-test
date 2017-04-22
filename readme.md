@@ -11,9 +11,11 @@
 
 <strong>Срок выполнения:</strong> 3 дня.<br>
 <strong>Дополнительные материалы:</strong> <a href="https://www.dropbox.com/s/q3quaauxvv731pb/futurecomes.psd?dl=0" target="_blank" rel="noopener noreferrer">Макет(psd)</a><br><br>
-<a href="http://test-1.ifrontender.ru/" target="_blank" rel="noopener noreferrer">test-1.ru</a><br><br>
-<img class="alignnone size-full wp-image-449" src="http://ifrontender.ru/wp-content/uploads/2017/04/test-1.jpg" alt="" width="996" height="600" /><strong>Используемые технологии и библиотеки:
+<strong>Ссылка:</strong> <a href="http://test-1.ifrontender.ru/" target="_blank" rel="noopener noreferrer">test-1.ru</a><br><br>
+<img src="http://ifrontender.ru/wp-content/uploads/2017/04/test-1.jpg" alt="Тестовая работа" /><strong>Используемые технологии и библиотеки:
 </strong>
 - <a href="https://github.com/agragregra/optimizedhtml-start-template" target="_blank" rel="noopener noreferrer">Стартовый шаблон</a>
 - SVG
 - Jquery-nice-select
+<hr>
+<strong>Эта и другие работы в моем портфолио:</strong> <a href="http://ifrontender.ru/portfolio/test-1/" target="_blank" rel="noopener noreferrer">ifrontender.ru</a>
