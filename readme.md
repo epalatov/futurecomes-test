@@ -18,4 +18,4 @@
 - SVG
 - Jquery-nice-select
 <hr>
-<strong>Эта и другие работы в моем портфолио:</strong> <a href="http://ifrontender.ru/portfolio/%D1%81ookybook/" target="_blank" rel="noopener noreferrer">ifrontender.ru</a>
+<strong>Эта и другие работы в моем портфолио:</strong> <a href="http://ifrontender.ru/portfolio/test-1/" target="_blank" rel="noopener noreferrer">ifrontender.ru</a>
